@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+body{
+    background-color:rgba(0, 0, 0, 0.7);
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+ navbar starts here
+*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: #e5d6d6; */
+}
+
+.red{
+    color: orange;
+
+}
+
+.home-bg{
+    background-color: orange;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 30px;
+    
+}
+
+.bold{
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.menu-btn span{
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+.menu-btn{
+    display: none;
+    flex-direction: column;
+    margin: 0px 0;
+}
+
+@media screen and (max-width:576px) {
+    .navbar{
+        box-sizing: border-box;
+       
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .menu-btn{
+        display: flex;
+        margin: 0;
+        padding: 0px 5px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    
+}
+
+/* 
+ navbar ends here
+*/
+
+/* 
+ banner section starts here.
+*/
+
+.style-font{
+    font-family: italianno;
+    font-size: 50px;
+
+}
+
+.black-btn{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 12px 15px;
+    border-radius: 12px;
+
+}
+
+.primary-btn{
+    background-color: orange;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+}
+.dark-3{
+    color: rgba(255,255,255,0.4);
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.banner-img{
+   
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner-img div{
+    text-align: center;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.card-1{
+   background-color: rgba(255,255,255,0.1);
+   padding: 10px;
+   width: 30%;
+   position: absolute;
+   top: 0px;
+   right: 40px;
+   border-radius: 5px;
+}
+
+.banner{
+   
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.banner h2{
+  font-size: 35px;
+  font-weight: 700px;
+  margin: 0;
+}
+
+
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+.card-2{
+    display: flex;
+    background-color: rgba(255,255,255,0.1);
+    align-items: center;
+    padding: 10px;
+    width: 45%;
+    gap: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    border-radius: 5px;
+ }
+
+ .banner-img img{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+ }
+
+ /* 
+       responsive code here
+ */
+
+ @media screen and (max-width:576px) {
+    
+    .banner{
+        box-sizing: border-box;
+        width: 100%;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .banner-text{
+        width: 100%;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+ }
