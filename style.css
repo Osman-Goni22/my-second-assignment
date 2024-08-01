@@ -372,6 +372,14 @@ nav ul li a{
      
   }
 
+  select{
+    appearance: none;
+    -webkit-appearance: none;
+    background:rgba(255,255,255,0.1)  url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>') no-repeat right 20px center;
+    background-size: 20px;
+    color: darkgray;
+  }
+
   .calculator{
     width: 100%;
   }
@@ -381,6 +389,14 @@ nav ul li a{
     display: grid;
      grid-template-columns: repeat(2,1fr);
      gap: 20px;
+  }
+
+  .calculate-btn{
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(230, 83, 60);
+    border: none;
   }
 
   /* select{
@@ -404,6 +420,10 @@ nav ul li a{
     text-align: justify;
     
     width: 88%;
+    appearance: none;
+    -webkit-appearance: none;
+    background:rgba(255,255,255,0.1)  url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>') no-repeat right 20px center;
+    background-size: 20px;
      
   }
 
