@@ -439,7 +439,7 @@ nav ul li a{
     top: 20px;
     right: 20px;
   }
-  .optional .div-5{
+  .optional .div-5, .extra{
     position: absolute;
     left: 20px;
     bottom: 20px;
@@ -448,6 +448,10 @@ nav ul li a{
     position: absolute;
     left: 20px;
     bottom: 20px;
+  }
+
+  .optional .class-4 .extra, .optional .class-5 .extra{
+    display: none;
   }
 
 
@@ -481,6 +485,16 @@ nav ul li a{
     }
     .class-6 .div-6{
       display: none;
+    }
+    .class-4 .div-4{
+      display: none;
+    }
+    .class-5 .div-5{
+      display: none;
+    }
+
+    .optional .class-4 .extra, .optional .class-5 .extra{
+      display: block;
     }
   }
   
